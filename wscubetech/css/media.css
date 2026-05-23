@@ -1,0 +1,49 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1170px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .float-btn {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+  }
+  .whatsapp-cta,
+  .call-cta {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  .hs {
+    padding: 2rem 0;
+  }
+  .hs_heading {
+    font-size: 32px;
+    line-height: 3.2rem;
+  }
+  .hs_para {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hs_list li {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .btn-group {
+    padding: 12px 15px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .btn-hs-parent{
+    flex-direction: column !important;
+  }
+}

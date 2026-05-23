@@ -1,0 +1,76 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.whatsapp-cta {
+  border-radius: 8px;
+  padding: 7px 18px;
+  background: white;
+  border: 1px solid #27ae60;
+  color: #27ae60;
+}
+.whatsapp-cta i {
+  color: #27ae60;
+}
+.call-cta {
+  border-radius: 8px;
+  padding: 7px 18px;
+  background: linear-gradient(to left, #0acefe, #2699fb);
+  color: #fff;
+  border: none;
+}
+.hs {
+  padding: 4rem 0;
+}
+
+.hs_heading {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 68px;
+}
+.hs_highlight {
+  color: #2699fb;
+  background: url(../images/ctabg.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.hs_para {
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #0a2134;
+  padding: 10px 0px;
+}
+.hs_list {
+  list-style-type: none;
+}
+.hs_list li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0a2134;
+  padding: 5px 0px;
+}
+.hs_list li i {
+  color: #2699fb;
+  height: 20px;
+  width: 20px;
+}
+.btn-group{
+padding: 12px 28px;
+ font-size: 16px;
+ line-height: 28px;
+border-radius: 8px;
+}
+.btn-demo {
+  color: white;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: 1px solid #2699fb; 
+}
+.btn-download {
+  align-items: center;
+  background: white;
+  border: 1px solid #d0d5dd;
+}
