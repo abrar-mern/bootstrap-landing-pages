@@ -72,8 +72,13 @@
               <li><i class="fa-solid fa-circle-check"></i> 50 seats only</li>
             </ul>
             <div class="d-flex btn-hs-parent gap-4 py-3">
-              <button class="btn-demo btn-group">Book 2 Days Demo</button>
-              <button class="btn-download btn-group d-flex gap-3">
+              <button class="btn-demo btn-group"     data-bs-toggle="modal"
+                data-bs-target="#demo-modal">Book 2 Days Demo</button>
+              <button
+                class="btn-download btn-group d-flex gap-3"
+                data-bs-toggle="modal"
+                data-bs-target="#curriculum-modal"
+              >
                 <i class="fa-solid fa-arrow-down"></i>Download Curriculum
               </button>
             </div>
@@ -113,19 +118,20 @@
                 <label for="basic-addon1">Phone</label>
                 <div class="input-group mt-2">
                   <span class="input-group-text" id="basic-addon1">+91</span>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter Your Mobile Number"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Mobile Number"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
                 </div>
-               
               </div>
 
               <!--Submit Button-->
-              <button class="form-submit btn-group mt-4 d-flex justify-content-center">
+              <button
+                class="form-submit btn-group mt-4 d-flex justify-content-center"
+              >
                 Register Now
               </button>
             </div>
@@ -134,29 +140,148 @@
 
         <!--Statistics Section-->
         <div class="row shadow-lg p-4 mt-5 statistic align-items-center gy-2">
-            <div class="col-xl col-6">
-                <h3 class="stats-heading">1000+</h3>
-                <p class="stats-desc">Students Trained</p>
-            </div>
-            <div class="col-xl col-6">
-                <h3 class="stats-heading">₹4.5 LPA</h3>
-                <p class="stats-desc">Students Trained</p>
-            </div>
-            <div class="col-xl col-6">
-                <h3 class="stats-heading">320+</h3>
-                <p class="stats-desc">Recruiting Partners</p>
-            </div>
-            <div class="col-xl col-6">
-                <h3 class="stats-heading">10:00 am</h3>
-                <p class="stats-desc">Program Timings</p>
-            </div>
-            <div class="col-xl col-6">
-                <h3 class="stats-heading">11th May</h3>
-                <p class="stats-desc">Next Batch Starts </p>
-            </div>
+          <div class="col-xl col-6">
+            <h3 class="stats-heading">1000+</h3>
+            <p class="stats-desc">Students Trained</p>
+          </div>
+          <div class="col-xl col-6">
+            <h3 class="stats-heading">₹4.5 LPA</h3>
+            <p class="stats-desc">Students Trained</p>
+          </div>
+          <div class="col-xl col-6">
+            <h3 class="stats-heading">320+</h3>
+            <p class="stats-desc">Recruiting Partners</p>
+          </div>
+          <div class="col-xl col-6">
+            <h3 class="stats-heading">10:00 am</h3>
+            <p class="stats-desc">Program Timings</p>
+          </div>
+          <div class="col-xl col-6">
+            <h3 class="stats-heading">11th May</h3>
+            <p class="stats-desc">Next Batch Starts</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!--All Modal-->
+
+    <!--Download Curriculum Modal-->
+    <div class="modal fade" id="curriculum-modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-main">
+              <!--Name Field-->
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+
+              <!--Email Field-->
+              <div class="mb-3">
+                <label for="email" class="form-label">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+
+              <!--Phone Field-->
+              <div class="mb-3">
+                <label for="basic-addon1">Phone</label>
+                <div class="input-group mt-2">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Mobile Number"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+
+              <!--Submit Button-->
+              <button
+                class="form-submit btn-group mt-4 d-flex justify-content-center"
+              >
+                Register Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--2 Days Demo Modal-->
+    <div class="modal fade" id="demo-modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Book 2 Days Demo</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-main">
+              <!--Name Field-->
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+
+              <!--Phone Field-->
+              <div class="mb-3">
+                <label for="basic-addon1">Phone</label>
+                <div class="input-group mt-2">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Mobile Number"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+
+              <!--Submit Button-->
+              <button
+                class="form-submit btn-group mt-4 d-flex justify-content-center"
+              >
+                Register Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--BS Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
