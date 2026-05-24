@@ -46,4 +46,10 @@
   .btn-hs-parent{
     flex-direction: column !important;
   }
+  .hs-form{
+  padding: 25px !important;
+}
+.form-heading{
+  font-size: 18px;
+}
 }
