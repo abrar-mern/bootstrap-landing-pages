@@ -17,6 +17,8 @@
     width: 100%;
     display: flex;
     justify-content: center !important;
+    background-color: #fff;
+    padding: 10px 0;
   }
   .whatsapp-cta,
   .call-cta {
@@ -51,5 +53,8 @@
 }
 .form-heading{
   font-size: 18px;
+}
+.stats-heading{
+  font-size: 20px;
 }
 }

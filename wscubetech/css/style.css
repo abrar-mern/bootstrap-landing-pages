@@ -58,34 +58,55 @@
   height: 20px;
   width: 20px;
 }
-.btn-group{
-padding: 12px 28px;
- font-size: 16px;
- line-height: 28px;
-border-radius: 8px;
+.btn-group {
+  padding: 12px 28px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 8px;
 }
 .btn-demo {
   color: white;
   background: linear-gradient(to right, #0acefe, #2699fb);
-  border: 1px solid #2699fb; 
+  border: 1px solid #2699fb;
 }
 .btn-download {
   align-items: center;
   background: white;
   border: 1px solid #d0d5dd;
 }
-.hs-form{
+.hs-form {
   padding: 40px !important;
 }
-.form-heading{
+.form-heading {
   font-size: 24px;
   font-weight: 600;
   line-height: 100%;
   color: #101828;
 }
-.form-desc{
+.form-desc {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4rem;
+  color: #43505b;
+}
+.form-submit {
+  color: white;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: 1px solid #2699fb;
+  width: 100%;
+}
+.statistic{
+  border-radius: 8px;
+}
+.stats-heading{
+  color: #2699FB;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.stats-desc{
   color: #43505B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
