@@ -110,3 +110,40 @@
   font-weight: 400;
   line-height: 24px;
 }
+.highlights{
+  background-color: #F7FAFF;
+  padding: 4rem 0;
+}
+.highlight-heading{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  font-style: bold;
+  color: #0A2134;
+}
+.highlight-para{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #0A2134;
+}
+.highlight-wrapper{
+  border-radius: 8px;
+}
+.highlight-img{
+  object-fit: contain;
+  width: 20%;
+}
+.highlight-item h4{
+  width: 80%;
+  color: #0A2134;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.highlight-item p {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #43505B;
+}
