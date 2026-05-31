@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--BS CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel in Bootstrap</title>
+  </head>
+  <body>
+    <!--Carousel Slider-->
+    <div
+      class="carousel slide"
+      id="slider1"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#slider1"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider1"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider1"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://smartcitymohaliplots.realtynivesh.com/img/banner3.jpg" class="d-block w-100" alt="Image Not Found" />
+        </div>
+
+        <div class="carousel-item active">
+          <img src="https://smartcitymohaliplots.realtynivesh.com/img/banner1.jpg" class="d-block w-100" alt="Image Not Found" />
+        </div>
+
+        <div class="carousel-item active">
+          <img src="https://smartcitymohaliplots.realtynivesh.com/img/banner2.jpg" class="d-block w-100" alt="Image Not Found" />
+        </div>
+      </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+
+    <!--BS Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
