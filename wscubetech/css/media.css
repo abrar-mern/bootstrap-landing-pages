@@ -45,22 +45,29 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .btn-hs-parent{
+  .btn-hs-parent {
     flex-direction: column !important;
   }
-  .hs-form{
-  padding: 25px !important;
-}
-.form-heading{
-  font-size: 18px;
-}
-.stats-heading{
-  font-size: 20px;
-}
-.highlight-heading{
-  font-size: 24px;
-}
-.highlight-para{
-  font-size: 16px;
-}
+  .hs-form {
+    padding: 25px !important;
+  }
+  .form-heading {
+    font-size: 18px;
+  }
+  .stats-heading {
+    font-size: 20px;
+  }
+  .highlight-heading {
+    font-size: 24px;
+  }
+  .highlight-para {
+    font-size: 16px;
+  }
+  .faq-heading {
+    font-size: 20px;
+     width: 100%;
+  }
+  .faq-desc {
+    font-size: 16px;
+  }
 }
