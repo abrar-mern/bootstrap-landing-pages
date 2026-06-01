@@ -70,4 +70,12 @@
   .faq-desc {
     font-size: 16px;
   }
+  .career-title{
+    font-size: 24px;
+    width: 100%;
+    line-height: 42px;
+  }
+  .career-desc{
+    font-size: 16px;
+  }
 }
