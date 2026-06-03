@@ -95,48 +95,49 @@
   border: 1px solid #2699fb;
   width: 100%;
 }
-.statistic{
+.statistic {
   border-radius: 8px;
 }
-.stats-heading{
-  color: #2699FB;
+.stats-heading {
+  color: #2699fb;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
 }
-.stats-desc{
-  color: #43505B;
+.stats-desc {
+  color: #43505b;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-.highlights, .faq-section{
-  background-color: #F7FAFF;
+.highlights,
+.faq-section {
+  background-color: #f7faff;
   padding: 4rem 0;
 }
-.highlight-heading{
+.highlight-heading {
   font-size: 36px;
   font-weight: 700;
   line-height: 100%;
   font-style: bold;
-  color: #0A2134;
+  color: #0a2134;
 }
-.highlight-para{
+.highlight-para {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-  color: #0A2134;
+  color: #0a2134;
 }
-.highlight-wrapper{
+.highlight-wrapper {
   border-radius: 8px;
 }
-.highlight-img{
+.highlight-img {
   object-fit: contain;
   width: 20%;
 }
-.highlight-item h4{
+.highlight-item h4 {
   width: 80%;
-  color: #0A2134;
+  color: #0a2134;
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -145,81 +146,127 @@
   font-size: 15px;
   line-height: 22px;
   font-weight: 400;
-  color: #43505B;
+  color: #43505b;
 }
-.faq-heading{
+.faq-heading {
   font-size: 44px;
   font-weight: 700;
-  line-height : 54px;
-  color: #0A2134;
+  line-height: 54px;
+  color: #0a2134;
   width: 80%;
   text-align: center;
 }
-.faq-desc{
-  color: #0A2134;
+.faq-desc {
+  color: #0a2134;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
   text-align: center;
 }
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   background-color: white !important;
-  box-shadow : none !important
+  box-shadow: none !important;
 }
-.accordion-button:focus{
+.accordion-button:focus {
   box-shadow: none !important;
 }
 
 .accordion-item:has(.accordion-collapse.show),
 .accordion-item:has(.accordion-collapse.collapsing) {
-  border: 2px solid #2699FB !important;
+  border: 2px solid #2699fb !important;
   border-radius: 4px !important;
 }
-.accordion-button:not(.collapsed){
-  color: #2699FB !important;
+.accordion-button:not(.collapsed) {
+  color: #2699fb !important;
 }
-.accordion-title{
+.accordion-title {
   font-size: 18px;
   font-weight: 600;
   line-height: 100%;
 }
-.accordion-text{
-  color: #0A2134;
+.accordion-text {
+  color: #0a2134;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
-.career-options{
+.career-options {
   background-color: white;
   padding: 4rem 0;
 }
-.career-title{
+.career-title {
   width: 70%;
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
-  color: #0A2134;
+  color: #0a2134;
   text-align: center;
 }
-.career-desc{
+.career-desc {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.carreritem-title{
-  color: #0A2134;
+.carreritem-title {
+  color: #0a2134;
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
-
 }
-.carreritem-desc{
-  font-size: #0A2134;
+.carreritem-desc {
+  font-size: #0a2134;
   font-size: 15px;
-  line-height: 22px; 
+  line-height: 22px;
 }
-.shadow-custom{
-  box-shadow: 0px 4px 20px -2px #002F5814;
-
+.shadow-custom {
+  box-shadow: 0px 4px 20px -2px #002f5814;
+}
+.certificate-section {
+  background-color: #f7faff;
+  padding: 4rem 0;
+}
+.certificate-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #0a2134;
+}
+.certificate-desc {
+  color: #0a2134;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.certificate-item {
+  border-radius: 8px;
+  border: 1px solid #f2f4f7;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 25px;
+  gap: 2rem;
+}
+.text-wrapper .text-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #0a2134;
+}
+.text-wrapper .text-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a2134;
+}
+.bg-certificate {
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: -2%;
+}
+.ellipse {
+  position: absolute;
+  bottom: -10%;
+  z-index: -1;
+  right: 0;
 }
